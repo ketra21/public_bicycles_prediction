@@ -1,3 +1,3 @@
 # public_bicycles_prediction
-Git is a distributed version control system.
-Git is free software distributed under the GPL.
+公共自行车使用量分析与预测
+首先通过探索性数据分析得出不同城市、时间、工作日/节假日、天气、温度、风速等对自行车使用量的影响，其次通过三种回归模型（简单线性回归、决策树回归、xgboost回归）对测试集建立模型，并进行检验，通过评估方法RMSE(Root of Mean Squared Error)计算分值，分别为27.13，28.19，15.13。说明xgboost回归模型效果最好。
